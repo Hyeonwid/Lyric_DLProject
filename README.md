@@ -9,3 +9,5 @@ We begin by importing Chloe Liu lyrics. Then, we index each word that shows up i
 ### Training and Evaluation
 
 We loaded in a pretrained tokenizer and the gpt2 base model. We tokenized the dataset using special tokens and split the training data. We used the train batch size of eight and the eval batch size as four because this is the max allowed by our memory. We also changed the gradient accumulation steps to four to make up for the small batch size. As of now, we are getting a loss of around 4, and we will look to improve this in the next milestone. 
+
+![plot](./dl.png)
