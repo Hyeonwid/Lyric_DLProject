@@ -11,9 +11,9 @@ We begin by importing Beatles lyrics. Then, we index each word that shows up int
 
 ### Training and Evaluation
 
-We loaded in a pretrained tokenizer and the gpt2 base model. We tokenized the dataset using special tokens and split the training data. We used the train batch size of eight and the eval batch size as four because this is the max allowed by our memory. We also changed the gradient accumulation steps to four to make up for the small batch size. As of now, we are getting a loss of around 4, and we will look to improve this in the next milestone. We uploaded a new notebook called CarlDavidLyricPrj2 with the update code. 
+We loaded in a pretrained tokenizer and the gpt2 base model. We tokenized the dataset using special tokens and split the training data. We trained four epochs with batch size of four to optimize resulting training time and accuracy. We have a BERT score precision of 78% on average and a relatively low perplexity of 5.34. We uploaded our final version notebook called FinalCarlDavidLyricPrj with the updated code. 
 
-![plot](./dl.png)
+<!-- ![plot](./dl.png) -->
 
 
 ## Datasets
